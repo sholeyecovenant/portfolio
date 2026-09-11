@@ -328,8 +328,17 @@ footer{
     }
     .nav ul{
         flex-direction: column;
-        gap: 15px;
+        gap: 12px;
         text-align: center;
+        align-items: center;
+        display: flex;
+    }
+    .nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+    .nav ul li a{
+        display: inline-block;
     }
     .hero{
         padding: 60px 20px;
