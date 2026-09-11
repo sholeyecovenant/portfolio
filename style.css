@@ -309,3 +309,69 @@ footer{
     margin-top: 25px;
     font-size: 14px;
 }
+@media (max-width:480px){
+    body{
+        background-color: #111827 ;
+    }
+    .hero-image{
+       width: 100%;
+       text-align: center;
+       margin-bottom: 30px;
+    }
+    #home{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .nav ul{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    .hero{
+        padding: 60px 20px;
+        text-align: center;
+    }
+    .hero h1{
+        font-size: 36px;
+    }
+    .projects,
+    .skill{
+        grid-template-columns: 1fr;
+    }
+    .hero-buttons{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .hero-buttons a{
+        width: 100%;
+        max-width: 250px;
+        text-align: center;
+    }
+    .hero-image img{
+        max-width: 80%;
+        height: auto;
+    }
+    #about {
+        padding: 50px 20px;
+        text-align: center;
+    }
+    #about p{
+        font-size: 16px;
+        line-height: 1.7;
+    }
+    #skills {
+        padding: 50px 20px;
+        text-align: center;
+    }
+    footer {
+        padding: 30px 20px;
+        text-align: center;
+    }
+}
