@@ -342,6 +342,7 @@ footer{
         box-sizing: border-box;
         display: flex;
         flex-wrap: wrap;
+        gap: 10px;
     }
     .nav ul li{
         width: 100%;
@@ -349,6 +350,7 @@ footer{
     }
     .nav ul li a{
         display: flex;
+        flex-wrap: wrap;
 
     }
     .hero{
