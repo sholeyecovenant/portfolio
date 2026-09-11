@@ -398,6 +398,7 @@ footer{
     #skills {
         padding: 50px 20px;
         text-align: center;
+        align-items: center;
     }
     footer {
         padding: 30px 20px;
