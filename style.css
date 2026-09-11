@@ -333,6 +333,7 @@ footer{
     }
     nav h2{
         font-size: 22px;
+        display: flex;
     }
     .nav ul{
         width: 100%;
@@ -347,7 +348,8 @@ footer{
         text-align: center;
     }
     .nav ul li a{
-        display: inline-block;
+        display: flex;
+
     }
     .hero{
         padding: 60px 20px;
